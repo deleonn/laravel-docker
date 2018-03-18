@@ -2,11 +2,11 @@
 
 Minimalist docker container to run a Laravel project with php7.2-fpm, nginx and mysql-5.7.
 
-## Getting Started
+## Getting started
 
 This container was created to have a minimalist and easy-to-run docker container for laravel applications. 
 
-### Prerequisites
+### Prerequisites
 
 Before using this docker container, you should be sure to have Docker already installed on your system. Also, you need to install composer to create your Laravel project.
 
