@@ -15,6 +15,7 @@ services:
       - "9001:9000"
     volumes:
       - ./path/to/project:/var/www/laravel
+      - ./images/php-fpm/php.ini:/usr/local/etc/php/php.ini
     working_dir:
       /var/www/laravel
 
