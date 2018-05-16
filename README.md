@@ -1,6 +1,6 @@
 # Docker for Laravel
 
-Minimalist docker container to run a Laravel project with php7.2-fpm, nginx and mysql-5.7.
+Minimalist docker container to run a Laravel project with php7.2-fpm, nginx and mysql-5.7 with xdebug support.
 
 ## Getting started
 
@@ -18,7 +18,7 @@ Clone this repository inside your Laravel's project folder (or one level above).
 git clone https://github.com/deleonn/laravel-docker.git
 ```
 
-Next, you need to edit `docker-compose.yml` to add your project path to both nginx and php volumes. This will sync your local code with docker.
+Next, you need to edit `docker-compose.override.yml` to add your project path to both nginx and php volumes. This will sync your local code with docker.
 
 ```
 [...]
